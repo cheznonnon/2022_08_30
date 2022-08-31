@@ -12,6 +12,49 @@
 Change Log
 
 
+2022/08/30 #1 : 2022/08/31
+
+
+BUGFIX
+
+
+	mac/image.c
+		HiDPI
+			NEW : experimental code is added
+			[!] : but comment-out'ed
+		n_mac_image_text_direct_draw()
+			NEW : for implementing font server
+	mac/n_listbox.c
+		Focus Indicator
+			OLD : misbehave
+			NEW : fixed
+	mac/n_txtbox.c
+		HiDPI
+			OLD : not working
+			NEW : use older mode
+			[!] : bitmap cache causes
+		debug code
+			OLD : benchmark code remains
+			NEW : fixed
+
+	Marie for Mac
+		Retina HiDPI
+			OLD : "Drop Here" is missing
+			NEW : fixed
+			[x] : system bug
+	hunyapiyo3 for Mac
+		Retina HiDPI
+			OLD : unplayable
+			NEW : partially fixed
+			[x] : system bug
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/08/30
 
 
