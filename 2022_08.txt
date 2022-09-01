@@ -12,6 +12,29 @@
 Change Log
 
 
+2022/08/30 #2 : 2022/09/01
+
+
+BUGFIX
+
+
+	mac/image.c
+		n_mac_image_nsimage2nbmp() : HiDPI
+			OLD : misbehave
+			NEW : fixed
+
+	hunyapiyo3 for Mac
+		Retina HiDPI
+			OLD : misbehave
+			NEW : fixed
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/08/30 #1 : 2022/08/31
 
 
